@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="fr"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Kaltech Studio - Notre Mission</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+<style>
+      .material-symbols-outlined {
+        font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 24
+      }
+    </style>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "primary": "#2094f3",
+              "background-light": "#f5f7f8",
+              "background-dark": "#101a22",
+            },
+            fontFamily: {
+              "display": ["Manrope", "sans-serif"]
+            },
+            borderRadius: {"DEFAULT": "1rem", "lg": "2rem", "xl": "3rem", "full": "9999px"},
+          },
+        },
+      }
+    </script>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="font-display">
+<div class="relative flex min-h-screen w-full flex-col bg-background-light dark:bg-background-dark overflow-x-hidden">
+<!-- Top App Bar -->
+<header class="flex items-center bg-background-light/80 dark:bg-background-dark/80 p-4 pb-2 justify-between backdrop-blur-sm sticky top-0 z-10">
+<div class="flex size-12 shrink-0 items-center justify-start text-zinc-900 dark:text-white">
+<span class="material-symbols-outlined" style="font-size: 28px;">menu</span>
+</div>
+<h2 class="text-zinc-900 dark:text-white text-lg font-bold leading-tight tracking-[-0.015em] flex-1 text-center">Kaltech Studio</h2>
+<div class="flex w-12 items-center justify-end">
+<button class="flex max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-12 bg-transparent text-zinc-900 dark:text-white gap-2 text-base font-bold leading-normal tracking-[0.015em] min-w-0 p-0">
+<span class="material-symbols-outlined" style="font-size: 28px;">mail_outline</span>
+</button>
+</div>
+</header>
+<main class="flex-grow flex flex-col justify-center px-4">
+<!-- Mission Section -->
+<section class="relative flex flex-col items-center justify-center py-16 sm:py-24">
+<!-- Luminous Background Effect -->
+<div class="absolute inset-0 z-0 overflow-hidden">
+<div class="absolute -top-1/4 -left-1/4 h-1/2 w-1/2 rounded-full bg-primary/20 blur-3xl"></div>
+<div class="absolute -bottom-1/4 -right-1/4 h-1/2 w-1/2 rounded-full bg-[#FF9800]/20 blur-3xl"></div>
+</div>
+<div class="z-10 flex flex-col items-center gap-8 text-center">
+<!-- Section Header -->
+<h3 class="text-primary text-base font-bold uppercase tracking-widest">Notre Mission</h3>
+<!-- Animated Visual Element -->
+<div class="relative w-24 h-24 sm:w-32 sm:h-32">
+<div class="absolute inset-0 rounded-full bg-primary/10"></div>
+<div class="absolute inset-2 rounded-full bg-background-light dark:bg-background-dark flex items-center justify-center">
+<span class="material-symbols-outlined text-primary" style="font-size: 48px;">tips_and_updates</span>
+</div>
+</div>
+<!-- Headline Text -->
+<h1 class="text-zinc-900 dark:text-white tracking-tight text-3xl font-extrabold leading-tight sm:text-4xl md:text-5xl max-w-3xl">
+                        Nous transformons vos idées en expériences digitales uniques grâce à la <span class="text-[#FF9800]">créativité</span>, la <span class="text-primary">technologie</span> et la <span class="text-[#FF9800]">passion</span>.
+                    </h1>
+</div>
+</section>
+<!-- Image Section -->
+<div class="flex w-full grow p-4">
+<div class="w-full gap-2 overflow-hidden aspect-[4/3] sm:aspect-video rounded-lg flex">
+<div class="w-full bg-center bg-no-repeat bg-cover flex-1 rounded-lg" data-alt="Abstract vibrant gradient representing digital creativity" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCPgQLpyteO-BlYjys5RP4rpTbB32ogw6yZrGN8hvnuLuGtMD5TSzbjHECsF765LEzguSEdfINJHO13-5QLDzoLAu4sqw0nAAqPLVFrP_4Jp3g_1tZnc87UdORfzZ9jOd-29f7JHomqNBWhLTxK2klA7PikJ_HUEzIDRsK4PZ1Xlk2aqGvDWh0eLBNx9F4vhtiR4QPIbBAYSOFVcLAS4PZ1AJXrJM8gW_fX-sBBCpy4GIbeaT0ES3QanEmxTrRjc4w_jKovgg6QDzY");'></div>
+</div>
+</div>
+<!-- CTA Section -->
+<div class="@container">
+<div class="flex flex-col justify-end gap-6 px-4 py-10 @[480px]:gap-8 @[480px]:px-10 @[480px]:py-20">
+<div class="flex flex-col gap-2 text-center">
+<h2 class="text-zinc-900 dark:text-white tracking-tight text-3xl font-extrabold leading-tight @[480px]:text-4xl @[480px]:font-black @[480px]:leading-tight @[480px]:tracking-[-0.033em] max-w-3xl mx-auto">
+                            Prêt à transformer votre idée?
+                        </h2>
+<p class="text-zinc-600 dark:text-zinc-300 text-base font-normal leading-normal max-w-2xl mx-auto">Contactez-nous pour commencer et donner vie à votre projet digital.</p>
+</div>
+<div class="flex flex-1 justify-center">
+<div class="flex justify-center">
+<button class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-12 px-6 @[480px]:h-14 @[480px]:px-8 bg-primary text-white text-base font-bold leading-normal tracking-[0.015em] @[480px]:text-lg @[480px]:font-bold @[480px]:leading-normal @[480px]:tracking-[0.015em] grow">
+<span class="truncate">Découvrir nos services</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</main>
+</div>
+</body></html>

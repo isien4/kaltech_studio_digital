@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Kaltech Studio Digital - Services</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+<style>
+        .service-card {
+            transition: all 0.3s ease-in-out;
+        }
+        .service-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 8px 30px rgba(32, 148, 243, 0.2);
+        }
+    </style>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "primary": "#2094f3",
+              "secondary": "#ff9800",
+              "background-light": "#f5f7f8",
+              "background-dark": "#101a22",
+              "surface-light": "#ffffff",
+              "surface-dark": "#192632",
+              "text-light": "#101a22",
+              "text-dark": "#f5f7f8",
+              "text-muted-light": "#6b7280",
+              "text-muted-dark": "#9ca3af",
+            },
+            fontFamily: {
+              "display": ["Manrope", "sans-serif"]
+            },
+            borderRadius: {"DEFAULT": "1rem", "lg": "1.5rem", "xl": "2rem", "full": "9999px"},
+          },
+        },
+      }
+    </script>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="font-display bg-background-light dark:bg-background-dark text-text-light dark:text-text-dark">
+<div class="relative flex min-h-screen w-full flex-col">
+<!-- Top App Bar -->
+<header class="flex shrink-0 items-center justify-between p-4 bg-background-light/80 dark:bg-background-dark/80 backdrop-blur-sm sticky top-0 z-10">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-3xl">
+                    hexagon
+                </span>
+<h2 class="text-xl font-bold">Kaltech Studio</h2>
+</div>
+<button class="flex h-12 w-12 cursor-pointer items-center justify-center overflow-hidden rounded-full bg-transparent text-text-light dark:text-text-dark">
+<span class="material-symbols-outlined text-2xl">
+                    menu
+                </span>
+</button>
+</header>
+<main class="flex-1 px-4">
+<!-- Headline Text -->
+<div class="py-12 md:py-16 text-center">
+<h1 class="text-4xl font-extrabold tracking-tight md:text-5xl lg:text-6xl">Explore Our Expertise</h1>
+<p class="mt-4 max-w-2xl mx-auto text-base text-text-muted-light dark:text-text-muted-dark md:text-lg">We craft digital experiences that captivate, engage, and deliver results.</p>
+</div>
+<!-- Text Grid / Services -->
+<div class="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4 pb-16">
+<!-- Card 1: Graphic Design -->
+<div class="service-card flex cursor-pointer flex-col gap-4 rounded-lg border border-white/10 bg-surface-light dark:bg-surface-dark p-6 shadow-sm">
+<div class="flex h-12 w-12 items-center justify-center rounded-full bg-primary/20 text-primary">
+<span class="material-symbols-outlined text-2xl">
+                            brush
+                        </span>
+</div>
+<div class="flex flex-col gap-1">
+<h2 class="text-lg font-bold">Graphic Design &amp; Branding</h2>
+<p class="text-sm text-text-muted-light dark:text-text-muted-dark">Creating memorable visual identities that resonate with your audience.</p>
+</div>
+</div>
+<!-- Card 2: Web Development -->
+<div class="service-card flex cursor-pointer flex-col gap-4 rounded-lg border border-white/10 bg-surface-light dark:bg-surface-dark p-6 shadow-sm">
+<div class="flex h-12 w-12 items-center justify-center rounded-full bg-secondary/20 text-secondary">
+<span class="material-symbols-outlined text-2xl">
+                            code
+                        </span>
+</div>
+<div class="flex flex-col gap-1">
+<h2 class="text-lg font-bold">Web Development</h2>
+<p class="text-sm text-text-muted-light dark:text-text-muted-dark">Building responsive, high-performance websites for a seamless user experience.</p>
+</div>
+</div>
+<!-- Card 3: Mobile & Desktop Apps -->
+<div class="service-card flex cursor-pointer flex-col gap-4 rounded-lg border border-white/10 bg-surface-light dark:bg-surface-dark p-6 shadow-sm">
+<div class="flex h-12 w-12 items-center justify-center rounded-full bg-primary/20 text-primary">
+<span class="material-symbols-outlined text-2xl">
+                            phone_iphone
+                        </span>
+</div>
+<div class="flex flex-col gap-1">
+<h2 class="text-lg font-bold">Mobile &amp; Desktop Apps</h2>
+<p class="text-sm text-text-muted-light dark:text-text-muted-dark">Crafting intuitive and powerful cross-platform applications for all devices.</p>
+</div>
+</div>
+<!-- Card 4: Digital Communication -->
+<div class="service-card flex cursor-pointer flex-col gap-4 rounded-lg border border-white/10 bg-surface-light dark:bg-surface-dark p-6 shadow-sm">
+<div class="flex h-12 w-12 items-center justify-center rounded-full bg-secondary/20 text-secondary">
+<span class="material-symbols-outlined text-2xl">
+                            rocket_launch
+                        </span>
+</div>
+<div class="flex flex-col gap-1">
+<h2 class="text-lg font-bold">Digital Communication</h2>
+<p class="text-sm text-text-muted-light dark:text-text-muted-dark">Elevating brands through strategic digital marketing and communication.</p>
+</div>
+</div>
+</div>
+</main>
+</div>
+</body></html>
