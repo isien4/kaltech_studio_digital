@@ -166,9 +166,12 @@
             justify-content: center;
             position: relative;
             overflow: hidden;
-            background: radial-gradient(circle at top left, rgba(33, 150, 243, 0.2), transparent 70%),
-                        radial-gradient(circle at bottom right, rgba(255, 152, 0, 0.2), transparent 70%),
+             background: radial-gradient(circle at top left, rgba(33, 150, 243, 0.2), transparent 70%),
+                        radial-gradient(circle at bottom right, rgba(255, 152, 0, 0.2), transparent 70%),url('dev2.jpg'),
                         var(--bg-dark);
+           
+            background-size: 100% 95%;
+            color: #ff8c00;
         }
 
         .hero::before {
@@ -220,7 +223,7 @@
 
         .hero-subtitle {
             font-size: clamp(1rem, 2vw, 1.25rem);
-            color: var(--text-muted);
+            color: #ff8c00;
             margin-bottom: 2rem;
         }
 
